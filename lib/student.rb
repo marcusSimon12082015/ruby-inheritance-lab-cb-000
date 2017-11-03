@@ -3,4 +3,7 @@ class Student < User
   def initialize
     @knowledge = []
   end
+  def learn(new)
+    @knowledge << new
+  end
 end
